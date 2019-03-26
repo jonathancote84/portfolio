@@ -3,106 +3,36 @@
   }
   
   body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Open Sans",
+    sans-serif; 
     font-size: 20px;
-    color: #37474F;
+    color: #444;
     text-align: center;
     line-height: 1.5;
   }
-  .headline{
-    font-size: 2rem;
-  }
-
-  .name{
-    font-size: 1.7rem;
-  }
+  
   nav,
   footer {
     padding: 1% 0;
-    background-color:#EDE7F6;
+    background-color: rgba(0,0,0,0);
   }
-  
-  .name{
+  a{
+    text-decoration: none;
     text-transform: uppercase;
-    padding-right: 2em;
-
   }
   nav {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
     position: fixed;
-    color: whitesmoke;
-    background-color:black;
-    
     top: 0;
-    left: 0;
-    right: 0;
+    left: 10px;
+
     z-index: 10;
   }
-  ul{
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-    
-
-    list-style-type: none;
-
-  }
-li{
-  padding-right: 5%;
-}
-a {
-  color:whitesmoke;
-
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #cddc39;
-}
-
-/* a:active {
-  color:black;
-} */
-
-/* a:visited {
-  color: rgb(87, 87, 87);
-} */
- 
-  
-  header {
-    color:whitesmoke;
-    padding: 12% 0;
-    background: url('images/primitaveoroboros.jpg') center no-repeat;
-    background-size: cover; 
-  }
-  
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #E0E0E0;
-  }
-  
-  section:nth-child(even) {
-    background-color: #EDE7F6;
-  }
-p{
-  margin-right: 5%;
-  margin-left: 5%;
-}
-#hamburger span{
-  display: none;
-}
-@media only screen and (max-width: 700px) {
-  /* start hamburger to x css animation */
+    /* start hamburger to x css animation */
   #hamburger{
     width: 30px;
     height: 21px;
     position: relative;
-    margin: 10px auto;
+    margin: 20px auto;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -117,7 +47,7 @@ p{
     position: absolute;
     height: 5px;
     width: 100%;
-    background: whitesmoke;
+    background:#D1C4E9;
     border-radius: 5px;
     opacity: 1; 
     left: 0;
@@ -167,7 +97,7 @@ p{
     left: 50%;
   }
   ul{
-    margin-top: 60px;
+    margin-top: 74px;
     padding: 0;
     position: fixed;
     left:12px;
@@ -203,39 +133,23 @@ p{
   ul li a {
     color: #37474F;
   }
-
   
-  footer{
-    font-size: 12px;
+  
+  header {
+    padding: 12% 0;
   }
-  .name{
-    font-size: 1.2rem;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .thunbnail{
-    width: 100%;
-    
-  }
-  .name{
-    font-size:1.0rem;
-  }
-  .headline{
-    font-size: 1.2rem;
-  }
-  h2{
-    font-size: 1.1em;
-  }
-  header{
-    margin-top: 1.25em; 
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #ede7f6;
   }
   p{
-    padding: .75 em;
-    font-size: .8rem;
+    margin-right: 5%;
+    margin-left: 5%;
   }
-  ul{
-    margin-top: 47px;
-  }
-
-}
+  
+  /* section:nth-child(even) {
+    background-color: #ede7f6;
+  } */
+  
