@@ -53,13 +53,17 @@
 li{
   padding-right: 5%;
 }
-a {
+ nav a {
   color:whitesmoke;
 
   text-decoration: none;
   text-transform: uppercase;
 }
-
+a{
+  color:  #37474F;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 a:hover {
   text-decoration: underline;
   color: #cddc39;
