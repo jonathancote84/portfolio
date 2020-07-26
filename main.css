@@ -12,6 +12,8 @@
   .headline{
     text-shadow: 2px 2px 8px black;
     font-size: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .name{
@@ -19,7 +21,7 @@
   }
   nav,
   footer {
-    padding: 1% 0;
+    /* padding: 1% 0; */
     background-color:#EDE7F6;
   }
   
@@ -35,7 +37,7 @@
     position: fixed;
     color: whitesmoke;
     background-color:black;
-    
+    height: 75px;
     top: 0;
     left: 0;
     right: 0;
@@ -83,6 +85,7 @@ a:hover {
     padding: 12% 0;
     background: url('images/primitaveoroboros.jpg') center no-repeat;
     background-size: cover; 
+    text-align: center;
   }
   
   section {
@@ -102,12 +105,15 @@ p{
   display: none;
 }
 @media only screen and (max-width: 700px) {
+  nav {
+    height: 60px;
+  }
   /* start hamburger to x css animation */
   #hamburger{
     width: 30px;
-    height: 21px;
+    height: 30px;
     position: relative;
-    margin: 10px;
+    margin: 15px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
