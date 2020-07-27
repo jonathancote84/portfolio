@@ -1,5 +1,7 @@
 
 //for smooth scrolling
+
+
 // document.getElementById('proj1-link').addEventListener('click', ()=> {
 // 	let elmnt = document.getElementById('proj1');
 // 	elmnt.scrollTo(0, 100);
@@ -8,8 +10,8 @@
 // document.getElementById('proj2-link').addEventListener('click', ()=> {
 // 	let elmnt = document.getElementById('proj2');
 // 	elmnt.scrollIntoView({behavior: "smooth", block: "end", inline: "start"});
-	
 // });
+
 document.getElementById('name').addEventListener('click', ()=> {
 	let elmnt = document.getElementById('banner');
 	elmnt.scrollIntoView({behavior: "smooth", block: "center", inline: "start"});
