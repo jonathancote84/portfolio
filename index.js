@@ -17,12 +17,12 @@ document.getElementById('name').addEventListener('click', ()=> {
 
 document.getElementById('bio-link').addEventListener('click', ()=> {
 	let elmnt = document.getElementById('bio');
-	elmnt.scrollIntoView({behavior: "smooth", block: "center", inline: "start"});
+	elmnt.scrollIntoView({behavior: "smooth", block: "end", inline: "center"});
 });
 
 document.getElementById('contact-link').addEventListener('click', ()=> {
 	let elmnt = document.getElementById('contact');
-	elmnt.scrollIntoView({behavior: "smooth", block: "center", inline: "start"});
+	elmnt.scrollIntoView({behavior: "smooth", block: "end", inline: "center"});
 });
 
 // toggle class for hamburger x animation
